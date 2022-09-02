@@ -1,0 +1,134 @@
+.news-img {
+  height: 150px;
+  width: 100%;
+  vertical-align: middle;
+}
+.news-link {
+  text-decoration: none;
+}
+.btn-div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.btn {
+  color: #051220;
+  padding: 0.5rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid black;
+  margin-right: 15px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #ffff;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+.card {
+  position: relative;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  margin: 0px 10px 30px 10px;
+  max-width: 300px;
+}
+@media (min-width: 647px) {
+  .card {
+    min-height: 500px;
+  }
+}
+
+.card_content {
+  padding: 1rem;
+}
+
+.card_title {
+  color: #051220;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #051220;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  font-weight: 400;
+}
+.made_by {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+.provider-logo {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.time-update-div {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 40rem) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .card {
+    width: 33.3333%;
+  }
+}
+
+@media (max-width: 335px) {
+  .provider-updated-time {
+    font-size: 4vw;
+  }
+}
+@media (max-width: 304px) {
+  .card_btn {
+    width: 80px;
+  }
+}
+
+.provider-updated-time {
+  margin-top: 0;
+  margin-bottom: 0rem;
+  margin-left: 4px;
+}

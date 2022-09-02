@@ -1,0 +1,37 @@
+.news-main-container{
+ font-family: "Montserrat", sans-serif;
+}
+h1{
+    font-size: 35px;
+    color: #051220;
+    font-weight: bolder;
+    line-height: 1.6;
+}
+.heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.6;
+    margin: 30px 20px 30px 20px ;
+}
+@media (max-width: 630px) {
+  .heading-container{
+  margin-bottom: 15px;
+  }
+}
+@media (max-width: 523px) {
+    h1 {
+      font-size: 6vw;
+    }
+}
+
+.card-main{
+      display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+

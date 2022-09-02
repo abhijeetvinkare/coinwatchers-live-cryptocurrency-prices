@@ -1,0 +1,225 @@
+.watchlist-coin-imag {
+    width: 50px;
+    height: 50px;
+  }
+
+  .watchlist-top-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .watchlist-coin-main-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  
+  .watchlist-coin-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    cursor: pointer;
+    margin: 20px 0px;
+  }
+  .watchlist-coin-row:hover{
+    transition: all .5s;
+    transform : translateY(-6px);
+   
+  }
+  .coin-watchlist-row {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    min-width: 250px;
+  }
+  
+  .coin-watchlist-row h1 {
+    font-size: 16px;
+    width: 150px;
+  }
+  
+.watchlist-coin-imag {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .watchlist-coin-symbol {
+    text-transform: uppercase;
+    width: 80px;
+    margin-left: 20px;
+  }
+  
+  .watchlist-coin-data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+  }
+  
+  .watchlist-coin-price {
+    width: 110px;
+  }
+  
+  .watchlist-coin-volume {
+    width: 155px;
+  }
+  
+  .watchlist-coin-marketcap {
+    width: 150px;
+  }
+  
+  .watchlist-coin-percent {
+    width: 100px;
+  }
+  
+  .red {
+    color: #ff0800;
+  }
+  
+  .green {
+    color: #afc54e;
+  }
+  .rank-para {
+    margin-right: 12px;
+  }
+  .rmv-btn{
+    margin-top: 20px;
+  }
+  @media (max-width: 1095px) {
+    .watchlist-coin-data {
+      margin-left: 30px;
+    }
+  }
+
+  @media (max-width: 905px) {
+    .watchlist-coin-data {
+      margin-left: 0px;
+    }
+  }
+
+  @media (max-width: 791px) {
+    .coin-watchlist-row h1 {
+      padding-right: 0px;
+      width: 100px;
+      margin-right: 10px;
+    }
+    .coin-watchlist-row {
+      margin-right: -100px;
+      padding-right: 0px;
+      margin-left: 20px;
+    }
+    .watchlist-coin-symbol {
+      margin-left: 10px;
+    }
+    .watchlist-coin-price {
+      margin-left: 130px;
+    }
+    .watchlist-coin-marketcap {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 617px) {
+    .watchlist-coin-price {
+      margin-left: 100px;
+    }
+  }
+  @media (max-width: 540px) {
+    .watchlist-coin-symbol {
+      display: none;
+    }
+    .watchlist-coin-price {
+      margin-left: 40px;
+    }
+  }
+  @media (max-width: 510px) {
+    .watchlist-coin-percent {
+      width: 50px;
+    }
+  }
+  @media (max-width: 440px) {
+    .watchlist-coin-percent {
+      display: none;
+    }
+  }
+
+  @media (max-width: 460px) {
+    .watchlist-coin-price {
+      margin-left: 20px;
+    }
+  }
+  @media (max-width: 416px) {
+    .coin-watchlist-row h1 {
+      width: 50px;
+    }
+    .rank-para {
+      margin-left: -8px;
+    }
+    .watchlist-coin-price {
+      margin-left: 10px;
+    }
+  }
+  
+  @media (max-width: 406px) {
+    .rank-para {
+      font-size: 3.5vw;
+      margin-right: 6px;
+    }
+    .watchlist-coin-percent {
+      margin-left: -30px;
+    }
+    .coin-watchlist-row h1 {
+      margin-left: 0px;
+    }
+  }
+
+  @media (max-width: 377px) {
+  .rmv-btn{
+    margin-left: -20px;
+  }
+  }
+  @media (max-width: 338px) {
+    .coin-watchlist-row h1 {
+      font-size: 4vw;
+    }
+    .watchlist-coin-price {
+      margin-left: -10px;
+      font-size: 4.4vw;
+    }
+    .watchlist-coin-imag {
+      width: 30px;
+      height: 30px;
+    }
+    .rmv-btn{
+      margin-left: -40px;
+    }
+
+  }
+  @media (max-width: 311px) {
+    .watchlist-coin-price {
+      margin-left: -20px;
+    }
+  }
+  @media (max-width: 280px) {
+    .watchlist-coin-price {
+      margin-left: -30px;
+    }
+  }
+  @media (min-width: 1115px) {
+    .coin-watchlist-row h1 {
+      width: 400px;
+    }
+    .watchlist-coin-symbol {
+      text-align: left;
+      width: 120px;
+      margin-left: 20px;
+    }
+  }
+  

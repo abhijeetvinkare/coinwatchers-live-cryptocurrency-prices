@@ -1,0 +1,191 @@
+.watchlist-main-container {
+  border-radius: 5px;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+  margin: 50px 200px;
+  padding: 2px;
+}
+.watchlist-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.watchlist-heading h1 {
+  font-size: 4vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background: #12a6fc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #12a6fc,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #12a6fc,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  padding: 10px;
+}
+@media (max-width: 800px) {
+  .watchlist-heading h1 {
+    font-size: 5.5vw;
+  }
+}
+@media (max-width: 500px) {
+  .watchlist-heading h1 {
+    font-size: 40px;
+  }
+}
+.watch-select-currency-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 5px -25px 5px;
+}
+.watch-select-currency-label {
+  font-weight: 500;
+}
+
+@media (max-width: 1115px) {
+  .watchlist-main-container {
+    margin: 50px 120px;
+  }
+}
+@media (max-width: 945px) {
+  .watchlist-main-container {
+    margin: 50px 80px;
+  }
+}
+@media (max-width: 830px) {
+  .watchlist-main-container {
+    margin: 50px 50px;
+  }
+}
+@media (max-width: 645px) {
+  .watchlist-main-container {
+    margin: 50px 10px;
+  }
+}
+
+.emptylist-main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.emptylist-div {
+  width: 800px;
+  height: 300px;
+  margin: 40px 10px;
+  -webkit-box-shadow: -1px 2px 13px 1px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: -1px 2px 13px 1px rgba(0, 0, 0, 0.19);
+  box-shadow: -1px 2px 13px 1px rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(
+        circle at 100% 100%,
+        #ffffff 0,
+        #ffffff 3px,
+        transparent 3px
+      )
+      0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px)
+      100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px)
+      0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100%
+      100%/8px 8px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 10px)
+      calc(100% - 16px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 16px)
+      calc(100% - 10px) no-repeat,
+    linear-gradient(
+      350deg,
+      transparent 0%,
+      rgba(231, 210, 160, 0.7) 19.673%,
+      #b6bdd9 100%
+    ),
+    linear-gradient(
+      212deg,
+      rgba(175, 231, 163, 0.38) 0%,
+      #eecec5 47.536%,
+      transparent 100%
+    ),
+    radial-gradient(
+        at 45% 53%,
+        #c2eded 0%,
+        #e8a5b2 20.989%,
+        #f0bbe3 20.989%,
+        #d7abe8 70.483%,
+        #eed79d 100%
+      )
+      26% 4%/164% 156%;
+  border-radius: 8px;
+  padding: 9px;
+  box-sizing: border-box;
+}
+.emptylist-div:hover {
+  background: radial-gradient(
+        circle at 100% 100%,
+        #ffffff 0,
+        #ffffff 3px,
+        transparent 3px
+      )
+      0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px)
+      100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px)
+      0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100%
+      100%/8px 8px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 10px)
+      calc(100% - 16px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 16px)
+      calc(100% - 10px) no-repeat,
+    linear-gradient(44deg, transparent 0%, rgba(40, 85, 234, 0.54) 100%),
+    linear-gradient(
+      264deg,
+      #2e32ed 0%,
+      rgba(24, 175, 155, 0.58) 9%,
+      rgba(34, 164, 150, 0.615) 21%,
+      #a6335c 51.467%,
+      #85cb5f 100%
+    );
+  border-radius: 8px;
+  padding: 9px;
+  box-sizing: border-box;
+}
+.emptylist-div h1 {
+  background: #12a6fc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #12a6fc,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #12a6fc,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 10px;
+}
+
+@media (max-width: 500px) {
+  .emptylist-div h1 {
+    font-weight: 400;
+  }
+  .watchlist-heading h1 {
+    font-weight: 400;
+  }
+}

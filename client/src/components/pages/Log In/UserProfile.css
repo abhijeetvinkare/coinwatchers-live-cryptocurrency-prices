@@ -1,0 +1,110 @@
+.userprofile-userprofile-main-container{
+    background-color: #EFEFF1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userprofile-userprofile-div{
+        width: 300px;
+        min-height: 500px;
+        background-color: #FFFFFF;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-bottom: 50px;
+        margin-top: 3rem;
+        border-radius: 8px;
+}
+.userprofile-upper-div-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.userprofile-upper-div{
+        background-image: url('./man.png');
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        border-radius: 8px;
+        background-size: 100px;
+}
+.userprofile-user-name{
+    font-family: Montserrat;
+    color: #3F3F43;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+.userprofile-para{
+    font-family: Montserrat;
+    color: #080808;
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+.user-userprofile-details-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.user-userprofile-span{
+    font-family: Montserrat;
+    color: #3F3F43;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.user-userprofile-details{
+    font-family: Montserrat;
+    color: #3F3F43;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    padding: 5px 0 5px 0;
+    line-height: 2;
+    
+}
+.userprofile-dot-hr{
+    margin-top: -5px;
+    margin-bottom: 10px;
+    width: 38px;
+    height: 38px;
+}
+.user-userprofile-name{
+    margin-top: -25px;
+}
+
+
+@media (max-width: 400px) {
+    .userprofile-userprofile-div{
+        width: 320px;
+    }
+}
+@media (max-width: 360px) {
+    .userprofile-userprofile-div{
+        width: 300px;
+    }
+}
+@media (max-width: 340px) {
+    .userprofile-userprofile-div{
+        width: 280px;
+    }
+}
+@media (max-width: 310px) {
+    .userprofile-userprofile-div{
+        width: 250px;
+    }
+}
+
+.delete-user-icon-btn{
+    
+    margin: 10px;
+    
+}
+.delete-icon-btn-div{
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,102 @@
+.main-container{
+    display: flex;
+  flex-direction: row;
+}
+.sidebar-container{
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  flex: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 2px solid #999999;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 0 25px 0 25px;
+}
+.coin-symbol-img{
+    margin-top: 5px;
+}
+
+.coin-name-heading{
+   margin: 25px 0 25px 0;
+   font-size: 2rem;
+}
+.coin-about{
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.coin-symbol-img{
+    width: 200px;
+    height: 200px;
+}
+.wathchlist-btn{
+  width: 90%;
+  padding: 10px;
+  outline: none;
+	border: 2px solid #F7CA18;
+	transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+  color: #000 ;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.wathchlist-btn:hover {
+  box-shadow: 0 0 10px #F7CA18, 0 0 40px #F7CA18, 0 0 80px #F7CA18;
+	text-shadow: nfour;
+}
+.graph-container{
+  margin: 20px;
+  padding: 10px;
+  flex: 50%;
+  margin-top: 30px;
+  
+}
+.chart-select-currency-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 5px 50px 5px;
+}
+.chart-select-currency-label{
+  font-weight: 500;
+}
+
+@media (max-width: 1050px) {
+  .main-container{
+  flex-direction: column;
+}
+.graph-container{
+  margin-top: -20px;
+}
+
+
+.sidebar-container{
+  border-right: 0px solid #999999;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+}
+@media (max-width: 440px) {
+  .sidebar-container{
+    padding: 8px;
+  }
+  .graph-container{
+    margin:5px;
+    margin-top: -20px;
+  }
+}
+
+
+
+
+
+
