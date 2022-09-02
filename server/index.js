@@ -149,25 +149,6 @@ app.post("/remove-coin-from-watchlist",(req,res) => {
 
 const PORT = process.env.PORT || 5000;
 
-// ------------------------------------------deyployment----------------------------------- 
-
-// const __dirname1 = path.resolve();
-
-// if (process.env.NODE_ENV === "production") {
-//   app.use(express.static(path.resolve(__dirname1, "./client/build")));
-
-//   app.get("*", (req, res) =>
-//     res.sendFile(path.join(__dirname1, "client", "build", "index.html"))
-//   );
-// } else {
-//   app.get("/", (req, res) => {
-//     res.send("API is running..");
-//   });
-// }
-
-// ------------------------------------------deyployment----------------------------------- 
-
-
 app.listen(PORT, () => {
     console.log(`Server started on port ${PORT}`);
 });

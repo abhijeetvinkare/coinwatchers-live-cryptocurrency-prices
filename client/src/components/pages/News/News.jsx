@@ -43,7 +43,7 @@ function News() {
     headers: {
       "x-bingapis-sdk": "true",
       "x-rapidapi-host": "bing-news-search1.p.rapidapi.com",
-      "x-rapidapi-key": "8deec11998mshbc335c4e9469490p114d4fjsnfba1b245c277",
+      "x-rapidapi-key": "plz put your api key",
     },
   };
 
