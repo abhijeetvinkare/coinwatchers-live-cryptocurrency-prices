@@ -53,7 +53,7 @@ https://coinwatchers.netlify.app/
 
 ## 👩‍🍳 Feedback
 
-If you have any feedback, please reach out to us at karanvinkare@gmail.com
+If you have any feedback, please reach out to us at https://coinwatchers.netlify.app/feedback
 
 # 🔏 License
 
