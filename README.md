@@ -1,7 +1,16 @@
 
-# live-crytpo-prices
+# Coinwatchers (live-cryptocurrencies-prices)
 
-A coinwatchers is a web app which tells you the current prices of all the cryptocurrencies and also shows the live global news related to cryptocurrencies. You can also signup and add your favourite coin to your watchlist.
+Coinwatchers is a web app that provides real-time prices of various cryptocurrencies and displays live global news related to the crypto market. Users can sign up and create a personalized watchlist of their favorite coins.
+
+
+## Features
+
+- Real-time cryptocurrency prices: Get the latest prices of various cryptocurrencies.
+- Live global news: Stay updated with the latest news and articles about cryptocurrencies from around the world.
+- Watchlist: Create a personalized watchlist to keep track of your favorite coins.
+- User accounts: Sign up, log in, and manage your profile and watchlist.
+- Responsive design: The web app is optimized for desktop and mobile devices, ensuring a seamless user experience.
 
 
 # 🚀 Technologies
