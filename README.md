@@ -67,5 +67,3 @@ If you have any feedback, please reach out to us at https://coinwatchers.netlify
 # 🔏 License
 
 Copyright © 2022 [Abhijeet Vinkare <abhijeetvinkare@gmail.com>](https://github.com/abhijeetvinkare)
-
-This project is licensed by [MIT License](https://api.github.com/licenses/mit).
